@@ -26,9 +26,10 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.1</version>
         </plugin>
-      </plugins>
-      
-      <plugins>
+      </plugins>     
+    </pluginManagement>
+    <pluginManagement>
+       <plugins>
          <plugin>
            <groupId>org.codehaus.mojo</groupId>
            <artifactId>sonar-maven-plugin</artifactId>
@@ -36,8 +37,9 @@
          </plugin>
          ...
        </plugins>
-      
-    </pluginManagement>
+ </pluginManagement>
+    
+    
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
